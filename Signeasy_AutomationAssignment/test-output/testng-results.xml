@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89692" started-at="2020-06-12T18:59:23 IST" finished-at="2020-06-12T19:00:53 IST">
+  <suite name="SignEasy Automation Test Suite" duration-ms="92685" started-at="2020-06-12T19:25:48 IST" finished-at="2020-06-12T19:27:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89692" started-at="2020-06-12T18:59:23 IST" finished-at="2020-06-12T19:00:53 IST">
+    <test name="Automation" duration-ms="92685" started-at="2020-06-12T19:25:48 IST" finished-at="2020-06-12T19:27:21 IST">
       <class name="com.qa.test.SelfSigning">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="setUp" is-config="true" duration-ms="15713" started-at="2020-06-12T18:59:23 IST" finished-at="2020-06-12T18:59:39 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="setUp" is-config="true" duration-ms="9406" started-at="2020-06-12T19:25:48 IST" finished-at="2020-06-12T19:25:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selfSigningUsingSignature()[pri:1, instance:com.qa.test.SelfSigning@d44fc21]" name="selfSigningUsingSignature" duration-ms="31850" started-at="2020-06-12T18:59:39 IST" finished-at="2020-06-12T19:00:11 IST">
+        <test-method status="PASS" signature="selfSigningUsingSignature()[pri:1, instance:com.qa.test.SelfSigning@d44fc21]" name="selfSigningUsingSignature" duration-ms="33569" started-at="2020-06-12T19:25:58 IST" finished-at="2020-06-12T19:26:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selfSigningUsingSignature -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="setUp" is-config="true" duration-ms="7683" started-at="2020-06-12T19:00:11 IST" finished-at="2020-06-12T19:00:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="setUp" is-config="true" duration-ms="15845" started-at="2020-06-12T19:26:31 IST" finished-at="2020-06-12T19:26:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selfSigningUsingDate()[pri:2, instance:com.qa.test.SelfSigning@d44fc21]" name="selfSigningUsingDate" duration-ms="34154" started-at="2020-06-12T19:00:18 IST" finished-at="2020-06-12T19:00:53 IST">
+        <test-method status="PASS" signature="selfSigningUsingDate()[pri:2, instance:com.qa.test.SelfSigning@d44fc21]" name="selfSigningUsingDate" duration-ms="32846" started-at="2020-06-12T19:26:47 IST" finished-at="2020-06-12T19:27:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selfSigningUsingDate -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="closeBrowser" is-config="true" duration-ms="238" started-at="2020-06-12T19:00:53 IST" finished-at="2020-06-12T19:00:53 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.test.SelfSigning@d44fc21]" name="closeBrowser" is-config="true" duration-ms="962" started-at="2020-06-12T19:27:20 IST" finished-at="2020-06-12T19:27:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.test.SelfSigning -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Automation -->
+  </suite> <!-- SignEasy Automation Test Suite -->
 </testng-results>
