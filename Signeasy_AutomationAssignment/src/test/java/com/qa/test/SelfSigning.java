@@ -47,9 +47,7 @@ public class SelfSigning extends TestBase {
 		String tableName = driver.findElement(By.xpath(
 				"//table[@class='fullWidth draft-table']/tbody/tr[3]/td[4]/div[@class='doc-type draft-tag text-center']"))
 				.getText();
-		System.out.println(tableName);
 		Assert.assertEquals(tableName, "DRAFT");
-		obj.closeBrowser();
 	}
 
 	// Self signing using date
@@ -68,9 +66,7 @@ public class SelfSigning extends TestBase {
 		String tableName = driver.findElement(By.xpath(
 				"//table[@class='fullWidth draft-table']/tbody/tr[3]/td[4]/div[@class='doc-type draft-tag text-center']"))
 				.getText();
-		System.out.println(tableName);
 		Assert.assertEquals(tableName, "DRAFT");
-		obj.closeBrowser();
 	}
 
 	public void signDropDownClick() throws InterruptedException {
@@ -87,6 +83,7 @@ public class SelfSigning extends TestBase {
 		}
 	}
 
+	@AfterTest
 	public void closeBrowser()
 
 	{
